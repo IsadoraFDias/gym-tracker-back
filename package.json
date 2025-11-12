@@ -1,0 +1,33 @@
+{
+  "name": "gym-tracker-back",
+  "version": "1.0.0",
+  "description": "Projeto responsável pelo backend da aplicação de controle de exercicios",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsadoraFDias/gym-tracker-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IsadoraFDias/gym-tracker-back/issues"
+  },
+  "homepage": "https://github.com/IsadoraFDias/gym-tracker-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
